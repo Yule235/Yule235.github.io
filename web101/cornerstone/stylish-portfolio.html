@@ -5,15 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+        integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        #services {
+        #Portfolio {
+            text-align: center;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+            height: 400px;
+
+
+
+        }
+
+        #Portfolio button {
+            border: none;
+            color: white;
+            background-color: blue;
+            border-radius: 5px;
+            height: 40px;
+            width: 100px;
+
+
+
+        }
+
+        #Offer {
+            text-align: center;
+            background-color: white;
+        }
+
+        #Offer button {
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            width: 100px;
+        }
+       
+       #services {
             text-align: center;
             background-color: #1D809F;
             margin: 0px;
+            padding: 0%;
+            
 
         }
 
@@ -23,6 +61,7 @@
             border-radius: 100%;
             display: inline-block;
             color: white;
+            background-color: white;
         }
 
         #services h4 {
@@ -30,69 +69,102 @@
 
         }
 
+        #services h2 {
+            color: white;
+        }
+
         #services h1 {
             color: white;
         }
-        #services p{
+
+        #services p {
             color: white;
         }
-        #services i{
+
+        #services i {
             background-color: white;
             color: #1D809F;
             font-size: 50px;
+
+
+        }
+
+        #welcome {
+            text-align: center;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+            height: 400px;
+            margin: 0%;
+            
             
 
         }
-   #welcome{
-    text-align: center;
-    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
-   height: 400px;
-   
-}
-   #welcome h2{
-    color: black;
-    font-size: 100px;
-   }
-   #welcome button{
-    border: none;
-    color: white;
-    background-color: #1D809F;
-    border-radius: 10px;
-    font-size: 50px;
-   }
-   
-   </style>
 
+        #welcome h2 {
+            color: black;
+            font-size: 100px;
+        }
+
+        #welcome button {
+            border: none;
+            color: white;
+            background-color: #1D809F;
+            border-radius: 10px;
+            font-size: 50px;
+        }
+    </style>
 
 
 
 </head>
 
 <body>
+    <div id="Portfolio">
+        <h1>Stylish Portfolio</h1>
+        <br>
+        <i>A Free Bootstrap Theme by Starts Bootstrap</i>
+        <br>
+        <button>Find Out More</button>
+    </div>
+
+    <div id="Offer">
+
+        <h1>Stylish Portfolio is the perfect theme for your next project!</h1>
+        <br>
+        <h4>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash !
+            <br>
+            <button>What We Offer</button>
+
+        </h4>
+    </div>
+    
     <div id="services">
         <h4>SERVICES</h4>
         <h1>What We Offer</h1>
 
         <hr>
-        <i class="fa-solid fa-mobile-screen"></i>
+        <i class="icon-screen-smartphone"></i>
+        <h2>Responsive</h2>
         <p>
-            Responsive
-            <br>
+
             Looks great on any screen size!
         </p>
         <hr>
-        <i class="fa-solid fa-pencil"></i>
-        <p>Redesigned
-            <br>
-            Freshly redesigned for Bootstrap 5.</p>
-        <hr>
-        <i class="fa-solid fa-thumbs-up"></i>
+        <i class="icon-pencil"></i>
+        <h2>Redesigned</h2>
         <p>
-            Favorited
-            <br>
+            Freshly redesigned for Bootstrap 5.
+        </p>
+        <hr>
+        <i class="icon-like"></i>
+        <h2>Favorited</h2>
+
+        <p>
             Millions of users love Start Bootstrap!
         </p>
         <hr>
+        <i class="icon-mustache"></i>
+        <h2>Question</h2>
+        <p>I mustache you a question...</p>
 
     </div>
     <div id="welcome">

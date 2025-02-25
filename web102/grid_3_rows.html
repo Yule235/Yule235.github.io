@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    #container {
+      display: grid;
+      /* grid-auto-rows define values for implicit rows     */
+      grid-auto-rows: 100px 50px;
+
+      /* grid-template-rows define values for explicit rows    */
+      grid-template-rows: 200px 30px;
+      /*            grid-template-rows: repeat(2, 200px);*/
+      row-gap: 10px;
+      gap: 10px;
+    }
+
+    #container>div {
+      background-color: blueviolet;
+      border: solid white;
+    }
+
+    #container>div:nth-child(5) {
+      /*      height: 20px;*/
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+</body></html>

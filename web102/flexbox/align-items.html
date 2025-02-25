@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            font-size: 3em;
+            display: flex;
+            border: solid red;
+            /*  */
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: baseline;
+            align-items: center;
+            align-items: flex-end;
+            align-items: flex-start;
+            align-items: stretch;
+        }
+
+        #container>div {
+            border: solid 1px;
+            background-color: lime;
+
+        }
+
+
+
+        #container>div:nth-child(odd) {
+            width: 100px;
+            height: 100px;
+            background-color: lime;
+        }
+
+        #container>div:nth-child(even) {
+            width: 150px;
+            height: 200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div>1 <br>Lorem, ipsum.</div>
+        <div>2 <br>Lorem ipsum dolor sit.</div>
+        <div>3 <br>Lorem, ipsum.</div>
+        <div>4 <br>Lorem ipsum dolor sit.</div>
+        <div>5 <br>Lorem, ipsum.</div>
+        <div>6 <br>Lorem ipsum dolor sit.</div>
+    </div>
+</body>
+
+</html>
